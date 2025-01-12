@@ -3,7 +3,7 @@ Concurrent database-access TA grading simulator - based on the Dining Philosophe
 - **Important: This program only runs on Linux/Unix**
  
 **Overview**
-- This program simulates a concurrent system where multiple Teaching Assistants (TAs) mark student assignments. It consists of shared memory, semaphores, and process synchronization in C. Each TA acquires semaphores of his/her own and the one one right, marks a list of students, releases the semaphores and records their scores in separate files, and ensures safe access to shared resources.
+- This program simulates a concurrent system where multiple Teaching Assistants (TAs) mark student assignments. Each TA acquires semaphores of his/her own and the one one right, marks a list of students, releases the semaphores and records their scores in separate files, and ensures safe access to shared resources. It has shared memory, semaphores, and process synchronization in C. The process was done without any deadlock of the paradox.
 
 **How to Compile** : Use gcc to compile the program. Clone this repo and run this bash:
 ```bash
