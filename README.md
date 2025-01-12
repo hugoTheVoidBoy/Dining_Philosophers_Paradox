@@ -24,12 +24,18 @@ This program simulates a concurrent system where multiple Teaching Assistants (T
 - stdio.h, stdlib.h, time.h, stdbool.h, string.h: Standard utilities.
 
 
-How to Compile
-Use gcc to compile the program:
+**How to Compile** : Use gcc to compile the program. Clone this repo and run this bash:
 ```bash
+git clone https://github.com/hugoTheVoidBoy/Dining_Philosophers_Paradox
+cd Dining_Philosophers_Paradox
 gcc Circular_Mutex_TA.c -o ta_marking_sim -lpthread
 ./ta_marking_sim
 
+```
+or run this bash for the version using shared memory:
+```
+git clone https://github.com/hugoTheVoidBoy/Dining_Philosophers_Paradox
+cd Dining_Philosophers_Paradox
 gcc Circular_Mutex_TA_wSharedMemory.c -o ta_marking_sim_sm -lpthread
 ./ta_marking_sim_sm
 
