@@ -1,8 +1,9 @@
 # Dining_Philosophers_Paradox
 Concurrent database-access TA grading simulator - based on the Dining Philosophers paradox. 
+**Important: This program only runs on Linux/Unix**
  
 **Overview**
-This program simulates a concurrent system where multiple Teaching Assistants (TAs) mark student assignments. It consists of shared memory, semaphores, and process synchronization in C. Each TA acquires semaphores of his/her own and the one one right, marks a list of students, releases the semaphores and records their scores in separate files, and ensures safe access to shared resources.
+- This program simulates a concurrent system where multiple Teaching Assistants (TAs) mark student assignments. It consists of shared memory, semaphores, and process synchronization in C. Each TA acquires semaphores of his/her own and the one one right, marks a list of students, releases the semaphores and records their scores in separate files, and ensures safe access to shared resources.
 
 **Features**
 - _Shared Memory_: Stores a list of student IDs accessible to all TAs.
