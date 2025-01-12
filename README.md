@@ -30,7 +30,7 @@ git clone https://github.com/hugoTheVoidBoy/Dining_Philosophers_Paradox
 cd Dining_Philosophers_Paradox
 gcc Circular_Mutex_TA.c -o ta_marking_sim -lpthread
 ./ta_marking_sim
-
+ 
 ```
 or run this bash for the version using shared memory:
 ```
